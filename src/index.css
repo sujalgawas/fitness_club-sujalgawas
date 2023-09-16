@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.JSA{
+  display: flex;
+  justify-content: space-around;
+}
+.JSB{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexColStart{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.flexColCenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

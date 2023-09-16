@@ -1,0 +1,218 @@
+.test {
+    height: 777px;
+}
+
+.h-wrapper {
+    padding-right: 457px;
+    gap: 630px;
+}
+
+.logo {
+    height: 45px;
+    margin: 25px 0px 0px 0px;
+}
+
+.JSA>li {
+    list-style-type: none;
+    margin: 0px 16px;
+    font-size: 1rem;
+}
+
+.h-right {
+    margin: 25px 0px 0px 0px;
+    color: white;
+}
+
+.nav-btn {
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    color: var(--orange);
+}
+
+.reactangle {
+    z-index: 0;
+    position: relative;
+    height: 701px;
+    width: 490px;
+    top: -78px;
+    left: 1439px;
+    background-color: var(--orange);
+}
+
+.curve-line {
+    z-index: -1;
+    position: relative;
+    top: -757px;
+    right: -1341px;
+    height: 427px;
+}
+
+.model {
+    position: relative;
+    top: -1100px;
+    right: -1405px;
+    height: 535px;
+}
+
+.rect-heart {
+    position: relative;
+    background-color: var(--darkGrey);
+    height: 150px;
+    width: 128px;
+    top: -1685px;
+    right: -1721px;
+    border-radius: 5px;
+}
+
+.heart {
+    height: 30px;
+    padding: 18px 0px 0px 18px;
+}
+
+.heart-txt {
+    margin: 12px 0px 0px 0px;
+}
+
+.heart-txt>span {
+    font-weight: 100;
+    color: var(--gray);
+    font-size: 1rem;
+    margin-right: 17px;
+}
+
+.heart-txt>p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: white;
+    position: relative;
+    top: -746px;
+    left: 1780px;
+    border: none;
+    height: 40px;
+    width: 82px;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+.right-stat {
+    position: relative;
+    top: -632px;
+}
+
+.fitness-club-MG {
+    color: white;
+    border-radius: 40px;
+    margin: 94px 0px 0px 40px;
+    background-color: var(--appColor);
+    height: 65px;
+    width: 330px;
+}
+
+.fitness-club-MG>span {
+    font-size: 1rem;
+    margin-top: 22px;
+    z-index: 1;
+}
+
+.orange-rec {
+    z-index: 0;
+    background-color: var(--orange);
+    position: relative;
+    width: 33px;
+    top: -37px;
+    right: 116px;
+    border-radius: 40px;
+    padding: 27px;
+}
+
+.main-txt {
+    color: white;
+    margin: 40px 38px 0px;
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.main-txt1 {
+    gap: 25px;
+}
+
+.border-only {
+    font-weight: 700;
+    font-family: sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.sub-header{
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: white;
+    margin: 26px 32px 0px;
+}
+
+.sub-stat{
+    color: white;
+  }
+
+.bold{
+    font-size: 2rem;
+}
+
+.sub-stat >p{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 100;
+    color: var(--gray);
+}
+
+.stat{
+    gap: 40px;
+    display: flex;
+    margin: 26px 32px 0px;
+}
+
+.buttons{
+    margin: 26px 32px 0px;
+    gap: 15px;
+    position: relative;
+}
+
+.buttons > button{
+    cursor: pointer;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    background-color: var(--orange);
+    border: 2px var(--orange);
+}
+
+
+.border-btn >button{
+    cursor: pointer;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    background-color: var(--orange);
+    border: 2px var(--orange);
+}
+
+.border-btn{
+    position: relative;
+    top: -38px;
+    left: 140px;
+    width: 120px;
+    border: 2px solid var(--orange);
+}
+
+  

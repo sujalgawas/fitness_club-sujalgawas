@@ -1,8 +1,14 @@
 import './App.css';
+import Header from "./component/header/Header";
+import Programs from './component/programs/Programs';
+
 function App() {
   return (
     <div className="App">
-          <span style={{color: 'white'}}>Subscribe Zainkeepscode</span>
+          <section class="container">
+            <Header/>
+            <Programs/>
+          </section>
     </div>
   );
 }

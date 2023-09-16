@@ -1,0 +1,147 @@
+.headers{
+    display: flex;
+    justify-content: center;
+    font-size:3rem;
+    color: white;
+    font-weight: 700;
+    gap: 96px;
+    font-style: italic;
+}
+
+.card{
+    display: flex;
+    margin: 28px;
+}
+.rectangle{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    margin: 8px;
+    background-color: rgb(128,128,128);
+    padding: 35px 25px 0px;
+    color: white;
+}
+
+.rectangle:hover{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    background: var(--planCard);
+    padding: 35px 25px 0px;
+    color: white;
+}
+
+.logos{
+    filter:brightness(0) invert(1);
+    height: 35px;
+    padding-right: 358px;
+    margin-bottom: 20px;
+}
+
+.rightarrow{
+    height: 15px;
+    padding-left: 30px;
+}
+
+.rectangle>span{
+    font-weight: bolder;
+}
+
+.rectangle>p{
+    font-weight: lighter;
+    font-size:0.9rem;
+}
+.w-reasons{
+    margin: 60px 0px 0px 40px;
+    display: flex;
+}
+.reasons{
+    gap: 10px;
+    margin: 24px 0px 0px 40px;
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.img1{
+    clip-path: inset(28px 1px 18px 0);
+    height: 500px;
+    width: 200px;
+    position: relative;
+}
+
+.img2{
+    height: 250px;
+    position: relative;
+    bottom: 221px;
+    left: 115px;
+}
+
+.img3{
+    height: 185px;
+    position: relative;
+    bottom: 10px;
+    right: 282px;
+}
+
+.img4{
+    height: 184px;
+    position: relative;
+    bottom: 10px;
+    right: 216px;
+}
+
+.reason-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.orange-txt{
+    font-size: 1rem;
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.white-txt{
+     margin-top: 20px;
+     font-size: 2.8rem;
+     font-weight: 700;
+     color: white;
+}
+
+.reason-subheader{
+    position: relative;
+    bottom: 65px;
+    right: 42px;
+    margin-top: 83px;
+}
+
+.tick{
+    height: 30px;
+}
+
+.right-txt{
+    position: relative;
+    right: 50px;
+    margin-top: 35px;
+}
+
+.patner{
+      height: 25px;
+      margin-right: 15px;
+}
+
+.img-patners{
+    gap: 30px;
+    margin: 10px 0px 20px 0px;
+}
+
+.patners{
+    position: relative;
+    bottom: 48px;
+}
